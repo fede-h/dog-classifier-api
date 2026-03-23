@@ -13,7 +13,7 @@ from torchvision import transforms
 BASE_DIR = Path(__file__).resolve().parent
 MODEL_DIR = BASE_DIR / "model"
 
-HOST = "0.0.0.0"
+HOST = "127.0.0.1"
 PORT = 8000
 
 with open(MODEL_DIR / "class_names.json", "r") as f:
